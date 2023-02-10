@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashbord</title>
+
+    <link rel="stylesheet" type="text/css" href="styles/mainStyles.css">
+    <link rel="stylesheet" type="text/css" href="fonts/poppins.css">
+</head>
+<body>
+    <div class="Wrapp">
+        <div class="sideMenu">
+            <div class="companyInfo">
+                <img src="media/logo.png" alt="logo" class="logo">
+                <h1>Dashbord</h1>
+                <p class="version">v.01</p>
+            </div>
+
+            <div class="visibleBlock">
+                <div class="companyInfoMobile">
+                    <img src="media/logo.png" alt="logo" class="logo">
+                    <h1>Dashbord</h1>
+                    <p class="version">v.01</p>
+                </div>
+
+                <img src="media/menu.png" alt="open" width="30px" height="30px" id="openList">
+            </div>
+    
+            <div class="menuList">
+                <div class="listElement">
+                    <img src="media/key-square.svg" alt="icon" class="icon" nextPhoto = "media/key-square-white.svg">
+                    <p>Dashbord</p>
+                </div>
+                <div class="listElement">
+                    <img src="media/product.svg" alt="icon" class="icon" nextPhoto = "media/product-white.svg">
+                    <p>Product</p>
+                    <img src="media/arrow-grey.svg" alt="arrow" class="arrow" altArrow = "media/arrow-white.svg">
+                </div>
+                <div class="listElement activeElement">
+                    <img src="media/customer-white.svg" alt="icon" class="icon" nextPhoto = "media/customer.svg">
+                    <p>Customer</p>
+                    <img src="media/arrow-white.svg" alt="arrow" class="arrow" altArrow = "media/arrow-grey.svg">
+                </div>
+                <div class="listElement">
+                    <img src="media/income.svg" alt="icon" class="icon" nextPhoto = "media/income-white.svg">
+                    <p>Income</p>
+                    <img src="media/arrow-grey.svg" alt="arrow" class="arrow" altArrow = "media/arrow-white.svg">
+                </div>
+                <div class="listElement">
+                    <img src="media/promote.svg" alt="icon" class="icon" nextPhoto = "media/promote-white.svg">
+                    <p>Promote</p>
+                    <img src="media/arrow-grey.svg" alt="arrow" class="arrow" altArrow = "media/arrow-white.svg">
+                </div>
+                <div class="listElement">
+                    <img src="media/help.svg" alt="icon" class="icon" nextPhoto = "media/help-white.svg">
+                    <p>Help</p>
+                    <img src="media/arrow-grey.svg" alt="arrow" class="arrow" altArrow = "media/arrow-white.svg">
+                </div>
+            </div>
+    
+            <div class="user">
+                <img class="userPhoto" src="media/userPhoto.svg" alt="userPhoto">
+                <p class="userName">Evano</p>
+                <p class="userRole">Project Manager</p>
+            </div>
+    
+    
+        </div>
+
+        <span class="hello">Hello Evano 👋🏼,</span>
+
+        <div class="Product">
+            <div class="productTop">
+                <div class="topLabel">
+                    <h2>All Customers</h2>
+                    <span>Active Members</span>
+                </div>
+
+                <div class="search">
+                    <input type="text" name="text" class="search_input" placeholder = "Search">
+                    <img class="search_icon" src="media/search_icon.svg" alt="find">
+                </div>
+            </div>
+
+            <div class="tableWrapp">
+                <table class="castomersInfo">
+                    <tr>
+                        <th>Customer Name</th>
+                        <th>Company</th>
+                        <th>Phone Number</th>
+                        <th>Email</th>
+                        <th>Country</th>
+                        <th>Status</th>
+                    </tr>
+                    <tr>
+                        <td>Jane Cooper</td>
+                        <td>Microsoft</td>
+                        <td>(222) 555-0118</td>
+                        <td>jane@microsoft.com</td>
+                        <td>United States</td>
+                        <td><div class="active">Active</div></td>
+                    </tr>
+                    <tr>
+                        <td>Floid Miles</td>
+                        <td>Yahoo</td>
+                        <td>(222) 555-0100</td>
+                        <td>floyd@yahoo.com</td>
+                        <td>Kiribati</td>
+                        <td><div class="inactive">Inactive</div></td>
+                    </tr>
+                    <tr>
+                        <td>Ronald Richards</td>
+                        <td>Adobe</td>
+                        <td>(222) 555-0107</td>
+                        <td>ronald@adobe.com</td>
+                        <td>Israel</td>
+                        <td><div class="inactive">Inactive</div></td>
+                    </tr>
+                    <tr>
+                        <td>Marvin McKinney</td>
+                        <td>Tesla</td>
+                        <td>(222) 555-0126</td>
+                        <td>marvin@tesla.com</td>
+                        <td>Iran</td>
+                        <td><div class="active">Active</div></td>
+                    </tr>
+                    <tr>
+                        <td>Jerome Bell</td>
+                        <td>Google</td>
+                        <td>(222) 555-0129</td>
+                        <td>jerome@google.com</td>
+                        <td>Réunion</td>
+                        <td><div class="active">Active</div></td>
+                    </tr>
+                    <tr>
+                        <td>Kathryn Murphy</td>
+                        <td>Microsoft</td>
+                        <td>(222) 555-0120</td>
+                        <td>kathryn@microsoft.com</td>
+                        <td>Curaçao</td>
+                        <td><div class="active">Active</div></td>
+                    </tr>
+                    <tr>
+                        <td>Jacob Jones</td>
+                        <td>Yahoo</td>
+                        <td>(222) 555-0112</td>
+                        <td>jacob@yahoo.com</td>
+                        <td>Brazil</td>
+                        <td><div class="active">Active</div></td>
+                    </tr>
+                    <tr>
+                        <td>Kristin Watson</td>
+                        <td>Facebook</td>
+                        <td>(222) 555-0127</td>
+                        <td>kristin@facebook.com</td>
+                        <td>Åland Islands</td>
+                        <td><div class="inactive">Inactive</div></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="productFooter">
+                <p>Showing data 1 to 8 of  256K entries</p>
+                <div class="productNav">
+                    <div class="navElement" id = "back"><span>&lt;</span></div>
+                    <div class="navElement selected" data-id="1"><span>1</span></div>
+                    <div class="navElement" data-id="2"><span>2</span></div>
+                    <div class="navElement" data-id="3"><span>3</span></div>
+                    <div class="navElement" data-id="4"><span>4</span></div>
+                    <span>...</span>
+                    <div class="navElement" data-id="40"><span>40</span></div>
+                    <div class="navElement" id = "foward"><span>&gt;</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/jquery-3.6.0.min.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
